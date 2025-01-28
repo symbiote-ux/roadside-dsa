@@ -22,3 +22,5 @@ const fibRecursion = (num) => {
 };
 
 console.log(fibRecursion(5));
+
+const fibNum = (n) => (n <= 1 ? n : fibNum(n - 1) + fibNum(n - 2));
