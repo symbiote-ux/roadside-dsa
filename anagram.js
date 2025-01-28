@@ -33,8 +33,8 @@ const isAnagram = (s, t) => {
 
   for (const key in obj1) {
     if (obj1[key] !== obj2[key]) return false;
-    return true;
   }
+  return true;
 };
 
-console.log(isAnagram('anagram','nagaram'));
+console.log(isAnagram('rat', 'car'));
